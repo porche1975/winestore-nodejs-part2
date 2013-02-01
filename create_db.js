@@ -15,7 +15,6 @@ db.once('open', function callback() {
 
     var wines = [
             {
-                "id": 1,
                 "name": "CHATEAU DE SAINT COSME",
                 "year": "2009",
                 "grapes": "Grenache / Syrah",
@@ -25,7 +24,6 @@ db.once('open', function callback() {
                 "picture": "saint_cosme.jpg"
             },
             {
-                "id": 2,
                 "name": "LAN RIOJA CRIANZA",
                 "year": "2006",
                 "grapes": "Tempranillo",
@@ -35,7 +33,6 @@ db.once('open', function callback() {
                 "picture": "lan_rioja.jpg"
             },
             {
-                "id": 3,
                 "name": "MARGERUM SYBARITE",
                 "year": "2010",
                 "grapes": "Sauvignon Blanc",
@@ -45,7 +42,6 @@ db.once('open', function callback() {
                 "picture": "margerum.jpg"
             },
             {
-                "id": 4,
                 "name": "OWEN ROE \"EX UMBRIS\"",
                 "year": "2009",
                 "grapes": "Syrah",
@@ -55,7 +51,6 @@ db.once('open', function callback() {
                 "picture": "ex_umbris.jpg"
             },
             {
-                "id": 5,
                 "name": "REX HILL",
                 "year": "2009",
                 "grapes": "Pinot Noir",
@@ -65,7 +60,6 @@ db.once('open', function callback() {
                 "picture": "rex_hill.jpg"
             },
             {
-                "id": 6,
                 "name": "VITICCIO CLASSICO RISERVA",
                 "year": "2007",
                 "grapes": "Sangiovese Merlot",
@@ -75,7 +69,6 @@ db.once('open', function callback() {
                 "picture": "viticcio.jpg"
             },
             {
-                "id": 7,
                 "name": "CHATEAU LE DOYENNE",
                 "year": "2005",
                 "grapes": "Merlot",
@@ -85,7 +78,6 @@ db.once('open', function callback() {
                 "picture": "le_doyenne.jpg"
             },
             {
-                "id": 8,
                 "name": "DOMAINE DU BOUSCAT",
                 "year": "2009",
                 "grapes": "Merlot",
@@ -95,7 +87,6 @@ db.once('open', function callback() {
                 "picture": "bouscat.jpg"
             },
             {
-                "id": 9,
                 "name": "BLOCK NINE",
                 "year": "2009",
                 "grapes": "Pinot Noir",
@@ -105,7 +96,6 @@ db.once('open', function callback() {
                 "picture": "block_nine.jpg"
             },
             {
-                "id": 10,
                 "name": "DOMAINE SERENE",
                 "year": "2007",
                 "grapes": "Pinot Noir",
@@ -115,7 +105,6 @@ db.once('open', function callback() {
                 "picture": "domaine_serene.jpg"
             },
             {
-                "id": 11,
                 "name": "BODEGA LURTON",
                 "year": "2011",
                 "grapes": "Pinot Gris",
@@ -125,7 +114,6 @@ db.once('open', function callback() {
                 "picture": "bodega_lurton.jpg"
             },
             {
-                "id": 12,
                 "name": "LES MORIZOTTES",
                 "year": "2009",
                 "grapes": "Chardonnay",
@@ -135,7 +123,6 @@ db.once('open', function callback() {
                 "picture": "morizottes.jpg"
             },
             {
-                "id": 13,
                 "name": "ARGIANO NON CONFUNDITUR",
                 "year": "2009",
                 "grapes": "Cabernet Sauvignon",
@@ -145,7 +132,6 @@ db.once('open', function callback() {
                 "picture": "argiano.jpg"
             },
             {
-                "id": 14,
                 "name": "DINASTIA VIVANCO ",
                 "year": "2008",
                 "grapes": "Tempranillo",
@@ -155,7 +141,6 @@ db.once('open', function callback() {
                 "picture": "dinastia.jpg"
             },
             {
-                "id": 15,
                 "name": "PETALOS BIERZO",
                 "year": "2009",
                 "grapes": "Mencia",
@@ -165,7 +150,6 @@ db.once('open', function callback() {
                 "picture": "petalos.jpg"
             },
             {
-                "id": 16,
                 "name": "SHAFER RED SHOULDER RANCH",
                 "year": "2009",
                 "grapes": "Chardonnay",
@@ -175,7 +159,6 @@ db.once('open', function callback() {
                 "picture": "shafer.jpg"
             },
             {
-                "id": 17,
                 "name": "PONZI",
                 "year": "2010",
                 "grapes": "Pinot Gris",
@@ -185,7 +168,6 @@ db.once('open', function callback() {
                 "picture": "ponzi.jpg"
             },
             {
-                "id": 18,
                 "name": "HUGEL",
                 "year": "2010",
                 "grapes": "Pinot Gris",
@@ -195,7 +177,6 @@ db.once('open', function callback() {
                 "picture": "hugel.jpg"
             },
             {
-                "id": 19,
                 "name": "FOUR VINES MAVERICK",
                 "year": "2011",
                 "grapes": "Zinfandel",
@@ -205,7 +186,6 @@ db.once('open', function callback() {
                 "picture": "fourvines.jpg"
             },
             {
-                "id": 20,
                 "name": "QUIVIRA DRY CREEK VALLEY",
                 "year": "2009",
                 "grapes": "Zinfandel",
@@ -215,7 +195,6 @@ db.once('open', function callback() {
                 "picture": "quivira.jpg"
             },
             {
-                "id": 21,
                 "name": "CALERA 35TH ANNIVERSARY",
                 "year": "2010",
                 "grapes": "Pinot Noir",
@@ -225,7 +204,6 @@ db.once('open', function callback() {
                 "picture": "calera.jpg"
             },
             {
-                "id": 22,
                 "name": "CHATEAU CARONNE STE GEMME",
                 "year": "2010",
                 "grapes": "Cabernet Sauvignon",
@@ -235,7 +213,6 @@ db.once('open', function callback() {
                 "picture": "caronne.jpg"
             },
             {
-                "id": 23,
                 "name": "MOMO MARLBOROUGH",
                 "year": "2010",
                 "grapes": "Sauvignon Blanc",
@@ -245,7 +222,6 @@ db.once('open', function callback() {
                 "picture": "momo.jpg"
             },
             {
-                "id": 24,
                 "name": "WATERBROOK",
                 "year": "2009",
                 "grapes": "Merlot",
